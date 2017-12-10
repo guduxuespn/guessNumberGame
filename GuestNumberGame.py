@@ -5,6 +5,8 @@ leave = 100
 
 # 定义一个变量answer
 answer = random.randint(0, leave)
+
+#显示提示及游戏规则
 print("我已经想好了一个100以内的整数，请猜猜我想的数是多少呢？\n要是现在不想玩了，那就打个00吧\n")
 while True:
     temp = input("你的答案是：\n")
